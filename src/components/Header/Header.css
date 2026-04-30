@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Signika:wght@400;600&display=swap");
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  color: #fff;
+  padding: 10px 40px;
+  font-family: "Orbitron", sans-serif;
+}
+
+/* Top Section */
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.logo-text {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 4px;
+  font-weight: 600;
+  padding: 0 12px;
+}
+
+.main-logo {
+  height: 70px;
+  border-radius: 12px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Supported By */
+.supported-by {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 8px 12px;
+}
+
+.supported-by span {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.support-logos {
+  display: flex;
+  gap: 15px;
+  margin-top: 8px;
+  padding: 4px;
+  align-items: center;
+}
+
+.support-logos img {
+  height: 40px;
+  border-radius: 8px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  align-items: center;
+}
+
+.nav-item {
+  cursor: pointer;
+  font-size: 14px;
+  color: #ccc;
+  transition: 0.3s;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  font-family: "Orbitron", sans-serif;
+}
+
+.nav-item:hover {
+  color: #00cfff;
+}
+
+.nav-item.active {
+  color: #00cfff;
+}
+
+.arrow {
+  margin-left: 4px;
+  font-size: 10px;
+}
+
+/* Dropdown menu */
+.nav-item.has-dropdown {
+  position: relative;
+}
+
+.nav-item .label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: calc(100% - 2px);
+  left: 0;
+  background: rgba(0, 0, 0, 0.85);
+  border-radius: 6px;
+  padding: 6px 0;
+  min-width: 180px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45);
+  display: none;
+  z-index: 9999;
+  pointer-events: auto;
+}
+
+.nav-item.has-dropdown:hover .dropdown-menu,
+.nav-item.has-dropdown.open .dropdown-menu,
+.nav-item.has-dropdown .dropdown-menu:hover,
+.nav-item.has-dropdown:focus-within .dropdown-menu {
+  display: block;
+}
+
+.nav-item.has-dropdown.open {
+  z-index: 10000;
+}
+
+.dropdown-menu li {
+  list-style: none;
+}
+.dropdown-menu li a {
+  display: block;
+  padding: 8px 14px;
+  color: #ddd;
+  text-decoration: none;
+  font-family: "Signika", sans-serif;
+}
+.dropdown-menu li a:hover {
+  background: rgba(255, 255, 255, 0.04);
+  color: #fff;
+}
