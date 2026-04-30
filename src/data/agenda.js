@@ -12,7 +12,7 @@ export const day1 = [
       {
         name: "Narendra Modi",
         role: "Prime Minister of India",
-        avatar: "/images/narendra-modi.jpeg",
+        avatar: "images/narendra-modi.jpeg",
       },
     ],
   },
@@ -24,7 +24,7 @@ export const day1 = [
       {
         name: "Elon Musk",
         role: "CEO, xAI, Tesla & SpaceX",
-        avatar: "/images/elon-musk.jpeg",
+        avatar: "images/elon-musk.jpeg",
       },
     ],
   },
@@ -37,17 +37,17 @@ export const day1 = [
       {
         name: "Mukesh Ambani",
         role: "Chairman & MD, Reliance Industries",
-        avatar: "/images/mukesh-ambani.jpeg",
+        avatar: "images/mukesh-ambani.jpeg",
       },
       {
         name: "Ashwini Vaishnaw",
         role: "Union Minister of Electronics, IT & Railways",
-        avatar: "/images/ashwini-vaishnaw.jpeg",
+        avatar: "images/ashwini-vaishnaw.jpeg",
       },
       {
         name: "Nandan Nilekani",
         role: "Co-founder & Chairman, Infosys",
-        avatar: "/images/nandan-nilekani.jpeg",
+        avatar: "images/nandan-nilekani.jpeg",
       },
     ],
   },
@@ -63,7 +63,7 @@ export const day1 = [
       {
         name: "Satya Nadella",
         role: "Chairman & CEO, Microsoft",
-        avatar: "/images/satya-nadella.jpeg",
+        avatar: "images/satya-nadella.jpeg",
       },
     ],
   },
@@ -80,17 +80,17 @@ export const day1 = [
       {
         name: "Lt Gen (Dr) Rajesh Pant",
         role: "Former National Cyber Security Coordinator, GoI",
-        avatar: "/images/rajesh-pant.jpeg",
+        avatar: "images/rajesh-pant.jpeg",
       },
       {
         name: "Dr Shri Kulkarni",
         role: "Sr. Advisor — Defense & Intelligence Affairs (AI & Cybersecurity)",
-        avatar: "/images/dr-shri-kulkarni.jpeg",
+        avatar: "images/dr-shri-kulkarni.jpeg",
       },
       {
         name: "Sanjay Saxena",
         role: "IPS, ex-DGP (Maharashtra Police)",
-        avatar: "/images/sanjay-saxena.jpeg",
+        avatar: "images/sanjay-saxena.jpeg",
       },
     ],
   },
@@ -102,7 +102,7 @@ export const day1 = [
       {
         name: "Lt. Gen. Madhavan Unnikrishnan Nair",
         role: "Chairman, 63SATS Cybertech",
-        avatar: "/images/madhavan-unnikrishnan-nair.jpeg",
+        avatar: "images/madhavan-unnikrishnan-nair.jpeg",
       },
     ],
   },
@@ -121,7 +121,7 @@ export const day2 = [
       {
         name: "Sam Altman",
         role: "CEO, OpenAI",
-        avatar: "/images/sam-altman.jpeg",
+        avatar: "images/sam-altman.jpeg",
       },
     ],
   },
@@ -134,17 +134,17 @@ export const day2 = [
       {
         name: "Gautam Adani",
         role: "Chairman, Adani Group",
-        avatar: "/images/gautam-adani.jpeg",
+        avatar: "images/gautam-adani.jpeg",
       },
       {
         name: "N. Chandrasekaran",
         role: "Chairman, Tata Sons",
-        avatar: "/images/n-chandrasekaran.jpeg",
+        avatar: "images/n-chandrasekaran.jpeg",
       },
       {
         name: "Arvind Krishna",
         role: "Chairman & CEO, IBM",
-        avatar: "/images/arvind-krishna.jpeg",
+        avatar: "images/arvind-krishna.jpeg",
       },
     ],
   },
@@ -160,7 +160,7 @@ export const day2 = [
       {
         name: "Nithin Kamath",
         role: "Founder & CEO, Zerodha",
-        avatar: "/images/nithin-kamath.jpeg",
+        avatar: "images/nithin-kamath.jpeg",
       },
     ],
   },
@@ -176,12 +176,12 @@ export const day2 = [
       {
         name: "Dr. S. Jaishankar",
         role: "Minister of External Affairs, GoI",
-        avatar: "/images/s-jaishankar.jpeg",
+        avatar: "images/s-jaishankar.jpeg",
       },
       {
         name: "Anuj Agarwal",
         role: "Chairman, Cyber Bar Association",
-        avatar: "/images/anuj-agarwal.jpeg",
+        avatar: "images/anuj-agarwal.jpeg",
       },
     ],
   },
@@ -193,7 +193,7 @@ export const day2 = [
       {
         name: "Azim Premji",
         role: "Founder Chairman, Wipro",
-        avatar: "/images/azim-premji.jpeg",
+        avatar: "images/azim-premji.jpeg",
       },
     ],
   },
@@ -206,7 +206,7 @@ export const day2 = [
       {
         name: "Nirmala Sitharaman",
         role: "Minister of Finance & Corporate Affairs, GoI",
-        avatar: "/images/nirmala-sitharaman.jpeg",
+        avatar: "images/nirmala-sitharaman.jpeg",
       },
     ],
   },
